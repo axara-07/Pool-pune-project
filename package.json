@@ -1,0 +1,1 @@
+{ "name": "poolpune", "version": "1.0.0", "description": "Ride pooling simulator for Pune", "scripts": { "start": "node backend/server.js", "test": "node backend/test.js && node backend/test-safety.js" }, "engines": { "node": ">=18" } }

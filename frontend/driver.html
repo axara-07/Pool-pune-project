@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PoolPune – driver dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<header><h1>PoolPune <span class="tag">Driver</span></h1><div id="userbar" class="userbar"></div><p>Go online and you see every rider's request. You choose which ones to take. While driving, riders on your route are marked, and you can add them (drop-off in between, or a little past your destination) until your seats are full.</p></header>
+<main class="dmain">
+<section class="panel" aria-label="Your status">
+  <p class="status" id="stat">Loading…</p>
+  <div class="swrow"><button id="sw" class="switch" role="switch" aria-checked="false" aria-labelledby="swl"><span></span></button><label id="swl">Go online</label></div>
+  <div class="row"><div><label for="area">Where you are now</label><select id="area"></select></div><div class="bottom"><button id="upd">Update location</button></div></div>
+  <p id="msg" class="note bad" role="alert"></p>
+</section>
+<section class="panel" aria-label="Your summary">
+  <div class="cards" id="stats"></div>
+  <p class="note" id="vehicle"></p>
+</section>
+<section class="panel full" id="tripPanel" hidden aria-label="Current trip"></section>
+<section class="panel full" aria-label="Ride requests"><p class="status" id="offerTitle">Ride requests</p><div id="offers"></div></section>
+<section class="panel full" id="safetyPanel" aria-label="Safety settings"></section>
+<section class="panel full" aria-label="Your trips"><p class="status">Your completed trips</p><div class="tw"><table class="dt" id="trips"><tr><td>No trips yet.</td></tr></table></div></section>
+</main>
+<div id="toast" class="toast" role="status" hidden></div>
+<script src="js/safety.js"></script>
+<script src="js/driver.js"></script>
+</body></html>

@@ -1,0 +1,197 @@
+{
+ "requests": [
+  {
+   "id": 1,
+   "riderUserId": 2,
+   "riderName": "Kanika",
+   "pickup": "Kothrud",
+   "drop": "Hinjewadi",
+   "seats": 1,
+   "share": true,
+   "maxDetour": 40,
+   "status": "expired",
+   "createdAt": "2026-11-09T03:53:20.450Z",
+   "coRider": "same",
+   "driverPref": "any",
+   "gender": "female",
+   "pin": "5992",
+   "shareToken": null,
+   "checkin": null,
+   "soloKm": 23.5,
+   "soloFare": 322,
+   "fare": null,
+   "inKm": null,
+   "detourPct": 0,
+   "tripId": null
+  }
+ ],
+ "trips": [],
+ "alerts": [
+  {
+   "id": 1,
+   "type": "sos",
+   "status": "open",
+   "createdAt": "2026-10-30T19:13:41.570Z",
+   "userId": 1,
+   "role": "rider",
+   "name": "axara",
+   "phone": "9522674348",
+   "note": "not safe",
+   "location": null,
+   "requestId": null,
+   "tripId": null,
+   "ride": null,
+   "vehicle": null,
+   "driverName": null,
+   "ridersInCar": [],
+   "trackUrl": null,
+   "geo": [
+    18.58593,
+    73.78481
+   ],
+   "sent": [
+    {
+     "name": "krishna",
+     "phone": "8421810686",
+     "at": "2026-10-30T19:13:41.571Z",
+     "status": "demo"
+    }
+   ],
+   "message": "axara sent an SOS on PoolPune. Last known area: unknown. Map: https://maps.google.com/?q=18.58593,73.78481. Message: not safe. Please call them now; in danger call 112."
+  },
+  {
+   "id": 2,
+   "type": "sos",
+   "status": "open",
+   "createdAt": "2026-11-15T18:20:21.891Z",
+   "userId": 1,
+   "role": "rider",
+   "name": "axara",
+   "phone": "9522674348",
+   "note": "",
+   "location": null,
+   "requestId": null,
+   "tripId": null,
+   "ride": null,
+   "vehicle": null,
+   "driverName": null,
+   "ridersInCar": [],
+   "trackUrl": null,
+   "geo": null,
+   "sent": [
+    {
+     "name": "krishna",
+     "phone": "8421810686",
+     "at": "2026-11-15T18:20:21.891Z",
+     "status": "demo"
+    }
+   ],
+   "message": "axara sent an SOS on PoolPune. Last known area: unknown. Please call them now; in danger call 112."
+  },
+  {
+   "id": 3,
+   "type": "sos",
+   "status": "open",
+   "createdAt": "2026-11-16T09:39:13.751Z",
+   "userId": 1,
+   "role": "rider",
+   "name": "axara",
+   "phone": "9522674348",
+   "note": "",
+   "location": null,
+   "requestId": null,
+   "tripId": null,
+   "ride": null,
+   "vehicle": null,
+   "driverName": null,
+   "ridersInCar": [],
+   "trackUrl": null,
+   "geo": [
+    18.62252,
+    73.91115
+   ],
+   "sent": [
+    {
+     "name": "krishna",
+     "phone": "9522674348",
+     "at": "2026-11-16T09:39:13.752Z",
+     "status": "demo"
+    }
+   ],
+   "message": "axara sent an SOS on PoolPune. Last known area: unknown. Map: https://maps.google.com/?q=18.62252,73.91115. Please call them now; in danger call 112."
+  },
+  {
+   "id": 4,
+   "type": "sos",
+   "status": "open",
+   "createdAt": "2026-11-16T09:40:57.076Z",
+   "userId": 1,
+   "role": "rider",
+   "name": "axara",
+   "phone": "9522674348",
+   "note": "",
+   "location": null,
+   "requestId": null,
+   "tripId": null,
+   "ride": null,
+   "vehicle": null,
+   "driverName": null,
+   "ridersInCar": [],
+   "trackUrl": null,
+   "geo": [
+    18.62252,
+    73.91117
+   ],
+   "sent": [
+    {
+     "name": "krishna",
+     "phone": "9303462167",
+     "at": "2026-11-16T09:40:57.076Z",
+     "status": "demo"
+    }
+   ],
+   "message": "axara sent an SOS on PoolPune. Last known area: unknown. Map: https://maps.google.com/?q=18.62252,73.91117. Please call them now; in danger call 112."
+  },
+  {
+   "id": 5,
+   "type": "sos",
+   "status": "open",
+   "createdAt": "2026-11-17T05:56:27.165Z",
+   "userId": 1,
+   "role": "rider",
+   "name": "axara",
+   "phone": "9522674348",
+   "note": "",
+   "location": null,
+   "requestId": null,
+   "tripId": null,
+   "ride": null,
+   "vehicle": null,
+   "driverName": null,
+   "ridersInCar": [],
+   "trackUrl": null,
+   "geo": [
+    18.62294,
+    73.9106
+   ],
+   "sent": [
+    {
+     "name": "kanika",
+     "phone": "9303462167",
+     "at": "2026-11-17T05:56:27.165Z",
+     "status": "demo"
+    },
+    {
+     "name": "axara",
+     "phone": "9522674348",
+     "at": "2026-11-17T05:56:27.165Z",
+     "status": "demo"
+    }
+   ],
+   "message": "axara sent an SOS on PoolPune. Last known area: unknown. Map: https://maps.google.com/?q=18.62294,73.9106. Please call them now; in danger call 112."
+  }
+ ],
+ "nextReq": 2,
+ "nextTrip": 1,
+ "nextAlert": 6
+}

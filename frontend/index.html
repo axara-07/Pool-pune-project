@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PoolPune – request a ride</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<header><h1>PoolPune</h1><div id="badge" class="badge">Connecting…</div><div id="userbar" class="userbar"></div><p>Request a ride. Nearby drivers see it and choose whether to take it. Let others join along the way and everyone pays less.</p></header>
+<main>
+<section class="panel" aria-label="Request a ride">
+<fieldset class="ra"><legend>Your ride</legend><div class="row">
+<div><label for="ap">From</label><select id="ap"></select></div><div><label for="ad">To</label><select id="ad"></select></div></div></fieldset>
+<fieldset><label for="seats">Passengers (you + friends)</label>
+<select id="seats"><option value="1">Just me</option><option value="2">Me + 1 friend</option><option value="3">Me + 2 friends</option></select></fieldset>
+<fieldset><label class="chk"><input type="checkbox" id="share" checked> Let other riders join my ride along the way (cheaper)</label>
+<div id="shareOpts"><label for="det">Most extra distance I accept: <b id="detv">40</b>%</label><input type="range" id="det" min="0" max="100" step="5" value="40"></div></fieldset>
+<fieldset class="prefs"><legend>Safety preferences</legend>
+<label for="corider">Who can share my ride</label><select id="corider"><option value="any">Anyone</option><option value="same">Only riders of my gender</option></select>
+<label for="drvpref">Who can drive me</label><select id="drvpref"><option value="any">Any driver</option><option value="same">Only drivers of my gender</option></select>
+<p class="note">Same-gender options need your gender set in Safety settings below. Nobody else ever sees your gender. Fewer matches may mean a longer wait.</p></fieldset>
+<button id="go" disabled>Loading…</button>
+</section>
+<section class="panel" aria-label="Map of Pune">
+<div id="map" role="img" aria-label="Map of Pune with areas, roads and online drivers"></div>
+<div class="legend"><span><i style="background:var(--drv)"></i>Online driver (faded = on a trip)</span><span><i style="background:var(--a)"></i>Your route</span></div>
+<p id="src" class="note"></p></section>
+<section class="panel" id="ride" aria-live="polite"><p class="status">No active ride.</p></section>
+<section class="panel" id="safetyPanel" aria-label="Safety settings"></section>
+<section class="panel" id="hist"><p class="status">Your past rides</p><div class="tw"><table class="dt" id="trips"><tr><td>No rides yet.</td></tr></table></div></section>
+<section class="panel" id="dist"><details><summary><b>Real road distance between all areas (km)</b></summary><div class="tw"><table id="tbl" class="dt"></table></div></details></section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="js/live.js"></script>
+<script src="js/safety.js"></script>
+<script src="js/app.js"></script>
+</body></html>

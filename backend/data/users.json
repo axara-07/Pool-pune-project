@@ -1,0 +1,56 @@
+[
+ {
+  "id": 1,
+  "role": "rider",
+  "name": "axara",
+  "email": "axara@gmail.com",
+  "phone": "9522674348",
+  "gender": "female",
+  "contacts": [
+   {
+    "name": "kanika",
+    "phone": "9303462167"
+   },
+   {
+    "name": "axara",
+    "phone": "9522674348"
+   }
+  ],
+  "blocked": [],
+  "salt": "73e95b1eb3bbe6bfc395ee9ea2572e24",
+  "hash": "71eb7727583a21f2108f4ccf8552d32312bb76256b7b905c30c9cd71311405e83b66544555d93b23f41151607d3d0c085bcf1ff155774ca137bce26cd4e832ba",
+  "createdAt": "2026-10-30T19:12:11.776Z"
+ },
+ {
+  "id": 2,
+  "role": "rider",
+  "name": "Kanika",
+  "email": "k@gmail.com",
+  "phone": "9876556789",
+  "gender": "female",
+  "contacts": [],
+  "blocked": [],
+  "salt": "e16051f9050becc5e9ecb94c4b7b96e7",
+  "hash": "68a6ba637dcb9ef23af06f98f97b3d9b277ee01bd118cbd5e272ce758ed578de195a18c9edfb35bf3545cbc189799c578ef6dcf4ba0482312ac3d438f2219130",
+  "createdAt": "2026-11-09T03:52:55.658Z"
+ },
+ {
+  "id": 3,
+  "role": "driver",
+  "name": "Rider1",
+  "email": "r1@gmail.com",
+  "phone": "9876556789",
+  "gender": "male",
+  "contacts": [],
+  "blocked": [],
+  "salt": "9f600b0f7008cf0be6c883f1e042cf33",
+  "hash": "8ff4c1c5662bbb9977ae2fe427bda86240eb1bce833d5eda9e8542d718ddd8c5bc6fe411e7567d8e5d700d05f1b3e6e79cf53f710e6426552115f6c15f054e7e",
+  "createdAt": "2026-11-09T03:54:56.642Z",
+  "driver": {
+   "vehicleType": "Sedan",
+   "plate": "MH 12 AB 1234",
+   "licence": "MH1220110012345",
+   "homeArea": "Ajeenkya DY Patil University"
+  }
+ }
+]
